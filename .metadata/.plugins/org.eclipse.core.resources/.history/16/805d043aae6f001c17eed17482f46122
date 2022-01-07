@@ -1,0 +1,14 @@
+package baseTest;
+
+public class BaseTest {
+	
+	
+	
+	
+	@Test
+	public void utilTest()
+	{
+		
+	}
+
+}

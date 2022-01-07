@@ -1,0 +1,24 @@
+package utils;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class ExtentReportListeners{
+	
+	
+protected static ExtentReports reports;
+protected static ExtentTest test;
+
+private static String resultpath=getResultPath();
+
+
+
+
+private static String getResultPath()
+{
+	
+}
+
+
+
+}

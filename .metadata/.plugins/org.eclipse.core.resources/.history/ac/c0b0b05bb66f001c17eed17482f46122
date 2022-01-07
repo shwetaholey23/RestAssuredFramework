@@ -1,0 +1,19 @@
+package baseTest;
+
+import org.testng.annotations.Test;
+
+import utils.ExtentReportListeners;
+import utils.FileAndEnv;
+
+public class BaseTest extends ExtentReportListeners {
+	
+	
+	
+	
+	@Test
+	public void utilTest()
+	{
+		
+	}
+
+}

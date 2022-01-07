@@ -1,0 +1,12 @@
+package apiConfigs;
+
+import java.util.Map;
+
+public class HeaderConfigs {
+	
+	public Map<String, String>  defaultHeaders()
+	{
+		
+	}
+
+}

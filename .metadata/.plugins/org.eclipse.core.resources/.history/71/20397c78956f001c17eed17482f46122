@@ -1,0 +1,11 @@
+package apiConfigs;
+
+public class APIpath {
+	
+	public static final class apiPath{
+	//Define API EndPoints
+	
+	public static final String GET_LIST_OF_USERS="";
+
+	}
+}

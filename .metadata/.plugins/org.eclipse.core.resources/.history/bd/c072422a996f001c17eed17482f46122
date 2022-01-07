@@ -1,0 +1,42 @@
+package utils;
+
+import java.io.File;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class ExtentReportListeners{
+	
+	
+protected static ExtentReports reports;
+protected static ExtentTest test;
+
+private static String resultpath=getResultPath();
+
+
+public static void deleteDirectory(File directory)
+{
+	if(directory.exists())
+	{
+		File[] files=directory.listFiles();
+		
+		if(null !=files)
+		{
+			for(int i=0;i<files.length;i++)
+			{
+				
+			}
+		}
+		
+	}
+}
+
+private static String getResultPath()
+{
+	return resultpath;
+	
+}
+
+
+
+}

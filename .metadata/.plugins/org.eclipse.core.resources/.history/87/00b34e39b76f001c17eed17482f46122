@@ -1,0 +1,24 @@
+package baseTest;
+
+import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.LogStatus;
+
+import utils.ExtentReportListeners;
+import utils.FileAndEnv;
+
+public class BaseTest extends ExtentReportListeners {
+	
+	
+	
+	
+	@Test
+	public void utilTest()
+	{
+		test.log(LogStatus.INFO, "Test has been started");
+		test.log(LogStatus.PASS, "Test has been successfully passed");
+	}
+
+	
+	
+}

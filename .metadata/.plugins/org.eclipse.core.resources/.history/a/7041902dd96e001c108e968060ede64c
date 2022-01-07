@@ -1,0 +1,25 @@
+package getReq;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class postRequest {
+
+	@Test
+    public void postRequest()
+    {
+		RestAssured.baseURI="https://reqres.in/api/users";
+		
+		RestAssured.given().body("{\n" + 
+		    "  \name\": \"morpheus\",\n" +
+		"    \"job\": \"leader\"\n" +
+		"}").post().then().
+		log().all()
+		
+		.assertThat().
+		statusCode(201);
+    }
+	
+	
+}
